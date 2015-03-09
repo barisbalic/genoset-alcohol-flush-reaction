@@ -1,0 +1,32 @@
+{
+   "name":"genoset-alcohol-flush-reaction",
+   "description":"Determines if a genome is likely to have extreme, moderate or no alcohol flush reaction (rs671)",
+   "version":"0.0.1",
+   "homepage":"http://github.com/barisbalic/genoset-alcohol-flush-reaction",
+   "repository":"git://github.com/barisbalic/genoset-alcohol-flush-reaction.git",
+   "author":"Baris Balic",
+   "main":"./index.js",
+   "tags": ["genome", "genoset", "rs671", "alcohol", "dna", "genetics", "genes"],
+
+   "dependencies":{
+      "gql":"*"
+   },
+   "devDependencies":{
+      "mocha":"*",
+      "should":"*",
+      "JSONStream":"*",
+      "event-stream":"*"
+   },
+   "scripts":{
+      "test":"mocha"
+   },
+   "engines":{
+      "node":">= 0.4.0"
+   },
+   "licenses":[
+      {
+         "type":"MIT",
+         "url":"http://github.com/barisbalic/genoset-alcohol-flush-reaction/raw/master/LICENSE"
+      }
+   ]
+}
